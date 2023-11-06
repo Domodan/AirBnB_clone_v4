@@ -1,8 +1,8 @@
-$(document).ready(initialize);
+$(document).ready(initApiStatus);
 
 const HOST = '0.0.0.0';
 
-function initialize () {
+function initApiStatus () {
   const amenityObj = {};
   $('.amenities .popover input').change(function () {
     if ($(this).is(':checked')) {
